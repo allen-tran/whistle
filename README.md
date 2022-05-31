@@ -1,4 +1,4 @@
-# Whistle
+# Whistle 🌬
 
 A simple TCP chat room written in GoLang. This application allows clients to connect to port `8001`, create a username or be ✨anonymous✨, and start joining rooms to send a message.
 
