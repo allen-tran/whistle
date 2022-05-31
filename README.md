@@ -4,6 +4,11 @@ A simple TCP chat room written in GoLang. This application allows clients to con
 
 ![image](https://user-images.githubusercontent.com/63386979/171106532-eef32fbe-b96b-42e3-a0e0-79b38e0912e1.png)
 
+## Demo 🎯
+
+<img width="1143" alt=" 2022-05-30 at 11 59 30 PM" src="https://user-images.githubusercontent.com/63386979/171111861-19c9699f-cb9b-439a-89aa-8b54c36139aa.png">
+Here is an example of two clients connected via TCP on Whistle. They were able to create nicknames and join a room to chat with each other. After they were doing, they quit out of the rooms.
+
 ## Usage 🚀
 ### 1. Clone the Repository
 ```
@@ -16,16 +21,9 @@ $ ./whistle
 ### 3. Connect the Client
 
 #### MacOS
-```
-$ nc ::1 8001
-```
+`$ nc ::1 8001`
 #### Linux
-```
-$ telnet localhost 8001
-```
-#### Windows
-
-not sure, please see [netstat](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/netstat)
+`$ telnet localhost 8001`
 
 ## Commands 🎮
 - `/nick <name>`: give yourself a nickname, else stay anonymous
