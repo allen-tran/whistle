@@ -52,7 +52,7 @@ func (s *server) nick(c *client, args []string) {
 		return
 	}
 	c.nick = args[1]
-	c.msg(fmt.Sprintf("all right, I will call you %s", c.nick))
+	c.msg(fmt.Sprintf("you will now be called %s", c.nick))
 }
 
 func (s *server) join(c *client, args []string) {
