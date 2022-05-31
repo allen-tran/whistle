@@ -7,7 +7,7 @@ A simple TCP chat room written in GoLang. This application allows clients to con
 ## Demo 🎯
 
 <img width="1143" alt=" 2022-05-30 at 11 59 30 PM" src="https://user-images.githubusercontent.com/63386979/171111861-19c9699f-cb9b-439a-89aa-8b54c36139aa.png">
-Here is an example of two clients connected via TCP on Whistle. They were able to create nicknames and join a room to chat with each other. After they were doing, they quit out of the rooms.
+Here is an example of two clients connected via TCP on Whistle. They were able to create nicknames and join a room to chat with each other. When done chatting, they were able to quit out of the server.
 
 ## Usage 🚀
 ### 1. Clone the Repository
